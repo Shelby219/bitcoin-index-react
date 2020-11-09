@@ -25,6 +25,7 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 align-self: center;
+
 `
 
 export const CurrHeading = styled.div `

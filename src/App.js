@@ -30,7 +30,7 @@ const App = () => {
   return (
     <div>
        <AppContainer>
-    	  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet"></link>
+    	 
          <h1>Bitcoin Index</h1>
          <CurrencySelector currency={currency} handleCurrencyChange={currencyChangeHandler} /> 
          <h2>Bitcoin data for: <Curr>{currency}</Curr></h2>
