@@ -11,12 +11,16 @@ text-align: center;
 h1 {
     justify-content: center;
 }
+border: 1px solid black;
 `
-
+export const Curr = styled.div `
+ color: blue;
+ font-size: 2em;
+`
 export const CurrContainer = styled.div `
 margin-top: 2em;
 font-family: 'Inconsolata', monospace;
-width: 400px;
+max-width: 400px;
 display: flex;
 justify-content: center;
 flex-direction: column;
@@ -32,7 +36,6 @@ select {
     width: 200px;  
 }
 `
-
 export const ChartArea = styled.div `
 margin-top: 2em;
 margin-bottom: 2em;
